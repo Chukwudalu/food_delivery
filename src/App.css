@@ -85,6 +85,29 @@ header{
   color: #fff;
 }
 
+.profileContainer{
+  display: flex;
+  align-items: center;
+}
+
+.profileContainer .imgBox{
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 100vw;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profileContainer .imgBox .profilePic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .shoppingCart .cart{
   font-size: 30px;
   color: #373848;
@@ -98,4 +121,27 @@ header{
   align-items: center;
 }
 
+.toggleMenu{
+  transform: rotate(90deg);
+}
+
+.toggleMenu .toggleIcon{
+  color: #373848;
+}
+
 /* Header Styles Ends */
+
+/* Bottom Menu Styles */
+.bottomMenu{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* Main Section Styles */
+main{
+  width: 100%;
+  height: 100vh;
+  background: #555;
+  margin-top: 60px;
+}

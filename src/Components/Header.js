@@ -1,5 +1,6 @@
 import React from 'react'
 import headerLogo from '../assets/headerLogo.svg'
+import profileImage from '../assets/profileImage.jpg'
 import {} from "@mui/material"
 import { SearchRounded, ShoppingCartRounded, BarChart } from '@mui/icons-material'
 
@@ -23,7 +24,7 @@ function Header() {
       </div>  
       <div className="profileContainer">
         <div className="imgBox">
-          <img src="" alt=""/>
+          <img src={profileImage} alt="" className="profilePic"/>
         </div>
         <h2 className="username">Jeremiah Okwuolisa</h2>
       </div> 
