@@ -1,11 +1,16 @@
 import React from 'react'
+import headerLogo from '../assets/headerLogo.svg'
 import {} from "@mui/material"
 import { SearchRounded, ShoppingCartRounded, BarChart } from '@mui/icons-material'
+
 
 function Header() {
   return (
     <header>
-      <img src="" alt=""/>
+      <img src={headerLogo}
+       alt=""
+       className="logo"
+      />
       <div className="inputBox">
         <SearchRounded className='searchIcon'/>
         <input type="text" placeholder="Search"/>
